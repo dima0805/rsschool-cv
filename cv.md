@@ -21,3 +21,6 @@ _I'm an enthusiastic and detail-oriented Frontend Software Developer seeking an 
   * UPSKILL LAB course in Front End Development 2020
 
 * WEBSITES, PORTFOLIOS, PROFILES:
+* 
+* ENGLISH:
+  *  B2 level (IELTS test report form number 18BY000248AUDD002G) 
