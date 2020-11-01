@@ -1,1 +1,1 @@
-https://dima0805.github.io/rsschool-cv/cv
+https://dima0805.github.io/rsschool-cv/index
