@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 h1 {
     color: white;
     font-size: 44px;
@@ -29,11 +33,7 @@ h1 {
     height: 100%;
     max-width: 960px
   }
-  
-  * {
-      box-sizing: border-box;
-    }
-    
+     
     address {
         font-size: 20px;
         font-style: normal;
@@ -93,12 +93,12 @@ h1 {
     font-size: 20px;
   }
   
-  p.job {
+  .job {
       text-align: right;
       font-weight: bold;
   }
   
-  p.title {
+  .title {
       font-size: 20px;
       font-weight: bold;
   }
