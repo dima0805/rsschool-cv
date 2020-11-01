@@ -10,36 +10,36 @@ h1 {
     text-align: center;
   }
   
-  h1 > span {
+h1 > span {
     color: #e06300;
   }
   
-  h3 {
+h3 {
     color: #e06300;
   }
   
-  h4 {
+h4 {
     font-size: 20px;
   }
   
-  img {
+img {
     width: 200px;
     height: 200px;
   }
   
-  .container {
+.container {
     background: #ffffff;
     margin: 0 auto;
     height: 100%;
     max-width: 960px
   }
      
-    address {
+address {
         font-size: 20px;
         font-style: normal;
       }
   
-  .contacts {
+.contacts {
     background: #231f38; /* Цвет фона */
     color: #ffffff; /* Цвет текста */
     padding: 5px;
@@ -49,14 +49,14 @@ h1 {
     margin: 0 auto;
   }
   
-  .info {
+.info {
     float: left;
     width: 70%;
     height: 250px;
     margin: 0 auto;
   }
   
-  .picture {
+.picture {
     float: right;
     width: 30%;
     height: 250px;
@@ -64,7 +64,7 @@ h1 {
     padding-top: 5%;
   }
   
-  .phone {
+.phone {
     width: 50%;
     height: 100px;
     float: right;
@@ -73,7 +73,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .street {
+.street {
     width: 50%;
     height: 100px;
     float: left;
@@ -82,28 +82,28 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .summary p {
+.summary p {
     font-size: 20px;
    }
   
-  ul li {
+ul li {
     list-style-type: square;
     list-style-position: inside;
     font-style: italic;
     font-size: 20px;
   }
   
-  .job {
+.job {
       text-align: right;
       font-weight: bold;
   }
   
-  .title {
+.title {
       font-size: 20px;
       font-weight: bold;
   }
   
-  footer {
+footer {
       background: #231f38;
       width: 960px;
       height: 50px; 
@@ -115,17 +115,17 @@ h1 {
 .contacts {
             height: 300px;
         }
-  .phone {
+.phone {
           height: 150px;
           font-size: 70%;
         }
         
-  .street {
+.street {
           height: 150px;
           font-size: 70%;
         }
       
- .picture {
+.picture {
             padding-top: 25%;
         }  
     }
