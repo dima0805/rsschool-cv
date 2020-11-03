@@ -1,131 +1,132 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 h1 {
-    color: white;
-    font-size: 44px;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-  }
-  
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3,
 h1 > span {
-    color: #e06300;
-  }
-  
-h3 {
-    color: #e06300;
-  }
-  
+  color: #e06300;
+}
+
 h4 {
-    font-size: 20px;
-  }
-  
+  font-size: 20px;
+}
+
 img {
-    width: 200px;
-    height: 200px;
-  }
-  
+  width: 200px;
+  height: 200px;
+}
+
 .container {
-    background: #ffffff;
-    margin: 0 auto;
-    height: 100%;
-    max-width: 960px
-  }
-     
+  background: #ffffff;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 960px;
+}
+
 address {
-        font-size: 20px;
-        font-style: normal;
-      }
-  
+  font-size: 20px;
+  font-style: normal;
+}
+
 .contacts {
-    background: #231f38; /* Цвет фона */
-    color: #ffffff; /* Цвет текста */
-    padding: 5px;
-    width: 100%;
-    height: 200px;
-    display: flexbox;
-    margin: 0 auto;
-  }
-  
+  background: #231f38;
+  color: #ffffff;
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+  display: flexbox;
+  margin: 0 auto;
+}
+
 .info {
-    float: left;
-    width: 70%;
-    height: 250px;
-    margin: 0 auto;
-  }
-  
+  float: left;
+  width: 70%;
+  height: 250px;
+  margin: 0 auto;
+}
+
 .picture {
-    float: right;
-    width: 30%;
-    height: 250px;
-    margin: 0 auto;
-    padding-top: 5%;
-  }
-  
+  float: right;
+  width: 30%;
+  height: 250px;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
 .phone {
-    width: 50%;
-    height: 100px;
-    float: right;
-    text-align: right;
-    padding-right: 10%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
+  width: 50%;
+  height: 100px;
+  float: right;
+  text-align: right;
+  padding-right: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .street {
-    width: 50%;
-    height: 100px;
-    float: left;
-    text-align: left;
-    padding-left: 10%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
+  width: 50%;
+  height: 100px;
+  float: left;
+  text-align: left;
+  padding-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .summary p {
-    font-size: 20px;
-   }
-  
+  font-size: 20px;
+}
+
 ul li {
-    list-style-type: square;
-    list-style-position: inside;
-    font-style: italic;
-    font-size: 20px;
-  }
-  
+  list-style-type: square;
+  list-style-position: inside;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.job_title li:first-child {
+  list-style-type: none;
+  font-weight: bold;
+}
+
 .job {
-      text-align: right;
-      font-weight: bold;
-  }
-  
+  text-align: right;
+  font-weight: bold;
+}
+
 .title {
-      font-size: 20px;
-      font-weight: bold;
-  }
-  
+  font-size: 20px;
+  font-weight: bold;
+}
+
 footer {
-      background: #231f38;
-      width: 960px;
-      height: 50px; 
-      text-align: center;
+  background: #231f38;
+  width: 960px;
+  height: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .contacts {
+    height: 300px;
   }
-  
-  @media screen and (max-width: 700px) {
-           
-.contacts {
-            height: 300px;
-        }
-.phone {
-          height: 150px;
-          font-size: 70%;
-        }
-        
-.street {
-          height: 150px;
-          font-size: 70%;
-        }
-      
-.picture {
-            padding-top: 25%;
-        }  
-    }
+  .phone {
+    height: 150px;
+    font-size: 70%;
+  }
+
+  .street {
+    height: 150px;
+    font-size: 70%;
+  }
+
+  .picture {
+    padding-top: 25%;
+  }
+}
