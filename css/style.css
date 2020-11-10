@@ -35,6 +35,9 @@ img {
 address {
   font-size: 20px;
   font-style: normal;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .contacts {
@@ -44,10 +47,10 @@ address {
   width: 100%;
   height: 200px;
   margin: 0 auto;
+  display: inline-flex;
 }
 
 .picture {
-  float: right;
   width: 30%;
   margin: 0 auto;
   padding-top: 5%;
@@ -63,17 +66,14 @@ address {
 .phone {
   width: 50%;
   height: 100px;
-  float: right;
   text-align: right;
   padding-right: 10%;
   margin: 0 auto;
 }
 
 .street {
-  display: flex;
   width: 50%;
   height: 100px;
-  float: left;
   text-align: left;
   padding-left: 10%;
   margin: 0 auto;
@@ -118,6 +118,20 @@ footer {
   background: #231f38;
   width: 100%;
   height: 50px;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #5700e2;
+}
+
+a:visited {
+  color: #c00000;
 }
 
 @media screen and (max-width: 800px) {
